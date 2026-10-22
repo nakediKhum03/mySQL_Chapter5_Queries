@@ -140,5 +140,97 @@ SELECT *
 FROM customer
 WHERE customer_id = 600;
 
+/**************
+Exercise 5: Insert statement using a column list
+• Part 5.1: Write a statement to setup insert another new customer with the same address id 606
+o Also use the same last name as the previous insert statement
+o OMIT all columns that are auto increment, defaults, and nullable columns
+******************/
+INSERT INTO customer 
+	(customer_id, store_id, first_name, last_name, email, address_id, active, create_date, last_update)
     
+VALUES 
+	(DEFAULT, 1, 'Sam', 'Johnson', NULL, 606, 1, current_date(), DEFAULT)
+
+
+/**************
+• Part 5.2: Write a query to prove the new customer was created by filtering on address id 606
+This should have created customer id = 601
+******************/
+
+SELECT * 
+FROM customer
+WHERE customer_id = 600;
+
+/**************
+EXERCISE 6: Update multiple columns for a single record
+Note: use book_scripts/ch05/5-05 examples as a starting point
+Write the following update statements:
+• Part 6.1 - update your first new customer record by changing it's store id = 2 and email address
+use the customer id (600) to update only one record
+******************/
+
+UPDATE customer
+SET store_id = 2, email = 'debbie.johnson@gmail.com'
+WHERE customer_id = 60;UPDATE customer
+
+/**************
+• Part 6.2 - update your second new customer record by changing it's store id = 2 and email address
+use the customer id (601) to update only one record
+******************/
+
+SET store_id = 2, email = 'sam.johnson@gmail.com'
+WHERE customer_id = 601;
+
+/**************
+• Part 6.3 - write a query to verify the two records have been correctly update
+use the address id (606) to retrieve both records
+******************/
+
+SELECT *
+FROM customer
+WHERE address_id = 606;
+
+
+/**************
+Exercise 7: Update multiple records (rows)
+• Part 7.1: Write one update statement that will update both new customer records
+changing their address id from 606 to 605. This will require you filtering by the address id = 606.
+******************/
+
+UPDATE customer 
+SET address_id = 605
+WHERE address_id = 606;
+
+/**************
+• Part 7.2: Write a query to verify that both records have been correctly updated by filtering by address id (605)
+******************/
+
+SELECT * 
+FROM customer 
+WHERE address_id = 605;
+
+
+
+
+/*
+EXERCISE 8: Write Delete Statements
+Part 8.1.A - Write a delete statement that delete the new city records using the city id = 601
+*/
+DELETE FROM customer
+WHERE customer_id IN (600, 601)
+
+/*
+Part 8.1.B - Write a delete statement that delete the new address records using the address id = 606
+*/
+
+DELETE FROM address
+WHERE address_id = 606;
+
+/*
+Part 8.1.C - Write a delete statement that delete the new customer records using the customer id = 600 & 601
+*/
+DELETE FROM city 
+WHERE city_id = 601; 
+
 
