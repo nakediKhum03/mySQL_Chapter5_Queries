@@ -1,19 +1,52 @@
-# mySQL_Chapter5_Queries
-<b>Table of Content</b>
+# MySQL Chapter 5 Queries
+
+## Table of Contents
 - [Summary](#summary)
-- [Collaborators](#collaborators)
-- [New Concepts Used](#list-of-new-concepts-used)
-- [Console Output Example](#console-output-testing-as-images)
+- [Collaborator](#collaborator)
+- [New Concepts Used](#new-concepts-used)
+- [Exercise 1: Full Table Backup](#exercise-1-full-table-backup)
+- [Exercise 2: Partial Table Backup](#exercise-2-partial-table-backup)
+- [Exercise 3: Drop Tables](#exercise-3-drop-tables)
+- [Exercise 4: Insert Without a Column List](#exercise-4-insert-without-a-column-list)
+- [Exercise 5: Insert Using a Column List](#exercise-5-insert-using-a-column-list)
+- [Exercise 6: Update a Single Record](#exercise-6-update-a-single-record)
+- [Exercise 7: Update Multiple Records](#exercise-7-update-multiple-records)
+- [Exercise 8: Delete Statements](#exercise-8-delete-statements)
+
+---
 
 ## Summary
 
+This project covers Chapter 5 of MySQL, focusing on inserting, updating, deleting, and backing up data within a relational database.
+
+The exercises use the Sakila database to demonstrate how SQL statements can manage records, create backup tables, modify customer information, and maintain relationships between tables.
+
+Screenshots of MySQL Workbench queries and results are included to document each exercise.
+
 ## Collaborator
-**Khumo Nakedi** <p>
-Github: [@nakediKhum03](https://github.com/nakediKhum03) 
+
+**Khumo Nakedi**
+
+GitHub: [@nakediKhumo03](https://github.com/nakediKhumo03)
 
 ## New Concepts Used
 
-# MySQL Chapter 5 Queries
+- **CREATE TABLE:** Creates new database tables.
+- **INSERT INTO:** Adds new records to a table.
+- **SELECT:** Retrieves and verifies records.
+- **WHERE:** Filters records based on conditions.
+- **UPDATE:** Modifies existing records.
+- **DELETE:** Removes records from a table.
+- **DROP TABLE:** Deletes an entire table.
+- **COUNT():** Counts the number of records.
+- **CHECKSUM TABLE:** Compares table checksums.
+- **NULL:** Represents missing or unknown values.
+- **DEFAULT:** Uses predefined column values.
+- **AUTO_INCREMENT:** Automatically generates unique IDs.
+- **Foreign Keys:** Maintain relationships between tables.
+
+---
+
 
 ## Query 1
 
