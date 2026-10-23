@@ -1,5 +1,4 @@
 # mySQL_Chapter5_Queries
-# MYSQL_Chapter4
 <b>Table of Content</b>
 - [Summary](#summary)
 - [Collaborators](#collaborators)
@@ -15,5 +14,46 @@ Github: [@nakediKhum03](https://github.com/nakediKhum03)
 ## New Concepts Used
 
 ## console output testing as images
+### Query 1
+![Query 1](assets/Chapter4_query1.png)
+### Query 1
+![Query 1](assets/Chapter45_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
+
+
+![Query 1](assets/Chapter4_Query1.png)
+### Query 1
+![Query 1](assets/Chapter4_Query1.png)
 ### Query 1
 ![Query 1](assets/Chapter4_Query1.png)
