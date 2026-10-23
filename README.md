@@ -3,15 +3,16 @@
 ## Table of Contents
 - [Summary](#summary)
 - [Collaborator](#collaborator)
-- [New Concepts Used](#new-concepts-used)
-- [Exercise 1: Full Table Backup](#exercise-1-full-table-backup)
-- [Exercise 2: Partial Table Backup](#exercise-2-partial-table-backup)
-- [Exercise 3: Drop Tables](#exercise-3-drop-tables)
-- [Exercise 4: Insert Without a Column List](#exercise-4-insert-without-a-column-list)
-- [Exercise 5: Insert Using a Column List](#exercise-5-insert-using-a-column-list)
-- [Exercise 6: Update a Single Record](#exercise-6-update-a-single-record)
-- [Exercise 7: Update Multiple Records](#exercise-7-update-multiple-records)
-- [Exercise 8: Delete Statements](#exercise-8-delete-statements)
+- [New Concepts Used](#new-concepts)
+- [Exercise 1: Full Table Backup](#exercise-1)
+- [Exercise 2: Partial Table Backup](#exercise-2)
+- [Exercise 3: Drop Tables](#exercise-3)
+- [Exercise 4: Insert Without Column List](#exercise-4)
+- [Exercise 5: Insert Using Column List](#exercise-5)
+- [Exercise 6: Update Single Record](#exercise-6)
+- [Exercise 7: Update Multiple Records](#exercise-7)
+- [Exercise 8: Delete Statements](#exercise-8)
+
 
 ---
 
