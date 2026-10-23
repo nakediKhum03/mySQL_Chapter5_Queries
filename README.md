@@ -16,3 +16,4 @@ Github: [@nakediKhum03](https://github.com/nakediKhum03)
 
 ## console output testing as images
 ### Query 1
+![Query 1](assets/Chapter4_Query1.png)
